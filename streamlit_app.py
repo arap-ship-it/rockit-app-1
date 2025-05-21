@@ -12,7 +12,7 @@ chat = st.Page(
     "views/🎬movie.py"
 )
 contact = st.Page(
-    "views/luckystrike.py" 
+    "views/🎰luckystrike.py" 
 )
 
 
