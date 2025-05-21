@@ -6,6 +6,7 @@ with c1 :
     
     st.image("254c7d3e4737995ddd5292a3450f70ca.jpg") 
     st.title("ALL ABOUT TYPE SHI") 
+    
 
     
     st.image("ec074ff3e46ebbd225b54f2e60029990.jpg") 
