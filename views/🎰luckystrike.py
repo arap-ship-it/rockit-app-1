@@ -4,12 +4,21 @@ c1, c2 = st.columns(2)
 
 with c1 : import streamlit as st
 
-st.title("Cek Angka Genap atau Ganjil")
+# Inisialisasi angka rahasia di session_state
+if "secret_number" not in st.session_state:
+    import random
+    st.session_state.secret_number = random.randint(1, 100)
 
-angka = st.number_input("Masukkan sebuah angka:", step=1)
+st.title("Game Tebak Angka Sederhana")
 
-    if angka % 2 == 0:
-        st.success(f"{angka} adalah angka Genap.")
+guess = st.number_input("Masukkan tebakan angka (1-100):", min_value=1, max_value=100, step=1)
+if st.button("Tebak"):
+    if guess == st.session_state.secret_number:
+        st.success("Tebakan kamu benar! 🎉")
+        # Reset angka rahasia untuk permainan baru
+        st.session_state.secret_number = random.randint(1, 100)
     else:
-        st.info(f"{angka} adalah angka Ganjil.")
+        st.warning("Tebakan salah, coba lagi!")
+
+st.write("Tebak angka antara 1 sampai 100.")
           
