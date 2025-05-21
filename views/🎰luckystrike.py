@@ -21,4 +21,4 @@ if st.button("Tebak"):
         st.warning("Tebakan salah, coba lagi!")
 
 st.write("Tebak angka antara 1 sampai 100.")
-          
+          st.firework
