@@ -10,7 +10,7 @@ angka = st.number_input("Masukkan sebuah angka:", step=1)
 
 if st.button("Cek"):
     if angka % 2 == 0:
-        st.success(f"{int(angka)} adalah angka Genap.")
+        st.success(f"{angka} adalah angka Genap.")
     else:
-        st.info(f"{int(angka)} adalah angka Ganjil.")
+        st.info(f"{angka} adalah angka Ganjil.")
           
