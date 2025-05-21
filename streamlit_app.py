@@ -3,7 +3,7 @@ import streamlit as st
 
 # --- PAGE SETUP ---
 about_page = st.Page(
-    "views/home.py"
+    "views/🏛️home.py"
 )
 sales = st.Page(
     "views/music.py"
