@@ -7,16 +7,16 @@ with c1 : import streamlit as st
 # Inisialisasi angka rahasia di session_state
 if "secret_number" not in st.session_state:
     import random
-    st.session_state.secret_number = random.randint(1, 30)
+    st.session_state.secret_number = random.randint(1,30)
 
-st.title("Tebak angka hoki anaka kucai")
+st.title("Tebak angka hoki anak kucai")
 
 guess = st.number_input("Masukkan tebakan angka (1-30):", min_value=1, max_value=30, step=1)
 if st.button("Tebak"):
     if guess == st.session_state.secret_number:
         st.success("Tebakan kamu benar! 🎉")
         # Reset angka rahasia untuk permainan baru
-        st.session_state.secret_number = random.randint(1, 30)
+        st.session_state.secret_number = random.randint(1,30)
     else:
         st.warning("Tebakan salah, coba lagi!")
 
