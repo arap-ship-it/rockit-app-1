@@ -9,7 +9,7 @@ sales = st.Page(
     "views/music.py"
 )
 chat = st.Page(
-    "views/chatbot.py"
+    "views/movie.py"
 )
 contact = st.Page(
     "views/contact.py" 
