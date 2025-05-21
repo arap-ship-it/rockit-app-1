@@ -3,25 +3,16 @@ import streamlit as st
 
 # --- PAGE SETUP ---
 about_page = st.Page(
-    "views/about_me.py",
-    title="About Me",
-    icon=":material/account_circle:",
-    default=True,
+    "views/about_me.py"
 )
 sales = st.Page(
-    "views/sales_dashboard.py",
-    title="Sales Dashboard",
-    icon=":material/bar_chart:",
+    "views/sales_dashboard.py"
 )
 chat = st.Page(
-    "views/chatbot.py",
-    title="Chat Bot",
-    icon=":material/smart_toy:",
+    "views/chatbot.py"
 )
 contact = st.Page(
-    "views/contact.py",
-    title="Contact",
-    icon=":material/smart_toy:",
+    "views/contact.py" 
 )
 
 
@@ -39,8 +30,8 @@ pg = st.navigation(
 
 
 # --- SHARED ON ALL PAGES ---
-st.logo("assets/ngodingseru.png")
-#st.sidebar.markdown("Made with ❤️")
+
+
 
 
 # --- RUN NAVIGATION ---
