@@ -1,7 +1,6 @@
 import streamlit as st 
 
-st.title("~🎸Rockit🎸~")
-st.write(
-    "BEJA KA BARUDAWGH ONE KOMANDO"
-)
-st.image("aleta02150.jpg")
+c1, c2 = st.columns(2)
+
+with c1 :
+    st.image("assets/profile.png") 
