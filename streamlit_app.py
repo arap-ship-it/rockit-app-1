@@ -6,13 +6,13 @@ about_page = st.Page(
     "views/🎸music.py"
 )
 sales = st.Page(
-    "views/music.py"
+    "views/sales.py"
 )
 chat = st.Page(
-    "views/🎬movie.py"
+    "views/botchat.py"
 )
 contact = st.Page(
-    "views/🎰luckystrike.py" 
+    "views/contact.py" 
 )
 
 
