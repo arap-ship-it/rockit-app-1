@@ -15,6 +15,7 @@ guess = st.number_input("Masukkan tebakan angka (1-50):", min_value=1, max_value
 if st.button("Tebak"):
     if guess == st.session_state.secret_number:
         st.success("Tebakan kamu benar! 🎉")
+        st.balloons() 
         # Reset angka rahasia untuk permainan baru
         st.session_state.secret_number = random.randint(1,50)
     else:
@@ -22,5 +23,3 @@ if st.button("Tebak"):
 
 st.write("Tebak angka antara 1 sampai 50.")
 
-import streamlit as st      
-st.balloons() 
