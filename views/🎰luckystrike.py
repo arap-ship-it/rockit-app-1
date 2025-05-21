@@ -1,13 +1,25 @@
 import streamlit as st 
 
-st.title ("Aplikasi Sederhana")
-st.header("Aplikasi Mengecek Nilai Genap/Ganjil") 
+c1, c2 = st.columns(2)
 
-     angka = st.number_input("Tulis sebuah Angka:", value=0, step=1)
+with c1 : import streamlit as st
 
-if (angka % 2) == 0:
-  st.write(f"{angka} adalah Bilangan Genap")
-else:
-  st.write(f"{angka} adalah Bilangan Ganjil") 
+# Inisialisasi angka rahasia di session_state
+if "secret_number" not in st.session_state:
+    import random
+    st.session_state.secret_number = random.randint(1, 10)
+
+st.title("Game Tebak Angka Sederhana")
+
+guess = st.number_input("Masukkan tebakan angka (1-10):", min_value=1, max_value=10, step=1)
+if st.button("Tebak"):
+    if guess == st.session_state.secret_number:
+        st.success("Tebakan kamu benar! 🎉")
+        # Reset angka rahasia untuk permainan baru
+        st.session_state.secret_number = random.randint(1, 10)
+    else:
+        st.warning("Tebakan salah, coba lagi!")
+
+st.write("Tebak angka antara 1 sampai 10.")
           
           
