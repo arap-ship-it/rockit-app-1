@@ -3,6 +3,13 @@ import streamlit as st
 c1, c2 = st.columns(2)
 
 with c1 :
+   
+    
+    
     st.image("ec074ff3e46ebbd225b54f2e60029990.jpg") 
     st.title("GOOD MUSIC CUZZ") 
+ 
     
+    
+    st.image("")
+    st.title("ABSOLUTE CINEMA")
