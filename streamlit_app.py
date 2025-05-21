@@ -1,9 +1,9 @@
 import streamlit as st
-your-app/
+rockit-app-1
 ├── streamlit_app.py
 └── pages/
-    ├── 1Home.py
-    └── 2About.py
+    ├── 1_Home.py
+    └── 2_About.py
 pages = [
     st.Page(Home, title="Home", icon="🏠"),
     st.Page(About, title="About", icon="ℹ️"),
