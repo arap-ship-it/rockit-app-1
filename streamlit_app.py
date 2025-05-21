@@ -23,8 +23,8 @@ contact = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page],
-        "Projects": [sales, chat],
-        "Contact": [contact]
+        "Interest": [sales, chat],
+        "GamblingAdict": [contact]
     }
 )
 
