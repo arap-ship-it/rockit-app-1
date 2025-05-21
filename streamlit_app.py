@@ -3,13 +3,13 @@ import streamlit as st
 
 # --- PAGE SETUP ---
 about_page = st.Page(
-    "views/🎸music.py"
+    "views/about_me.py"
 )
 sales = st.Page(
-    "views/sales.py"
+    "views/sales_dashboard.py"
 )
 chat = st.Page(
-    "views/botchat.py"
+    "views/chatbot.py"
 )
 contact = st.Page(
     "views/contact.py" 
