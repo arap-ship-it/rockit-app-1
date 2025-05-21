@@ -24,7 +24,7 @@ pg = st.navigation(
     {
         "Info": [about_page],
         "Interest": [sales, chat],
-        "GamblingAdict": [contact]
+        "Gambling": [contact]
     }
 )
 
