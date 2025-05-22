@@ -6,4 +6,10 @@ with c1 :
     
     st.image("254c7d3e4737995ddd5292a3450f70ca.jpg") 
     st.title("ALL ABOUT TYPE SHI") 
+    st.write(""" 
+    - All About Movie 
+    - All About Music
+    - All About Good Stuff """) 
+            
+              
 
