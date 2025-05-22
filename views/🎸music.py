@@ -8,7 +8,8 @@ with c1 :
     st.title("GOOD MUSIC CUZZ") 
    
     
-    st.audio("David Bowie - Heroes (Official Video).mp3") 
+    st.audio("David Bowie - Heroes (Official Video).mp3")
+    st.audio("Kiss of Life.mp3")
 
 
 
