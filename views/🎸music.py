@@ -10,6 +10,7 @@ with c1 :
     
     st.audio("David Bowie - Heroes (Official Video).mp3")
     st.audio("Kiss of Life.mp3")
+    st.audio("Hey Lover.mp3")
 
 
 
