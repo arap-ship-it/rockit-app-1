@@ -9,7 +9,7 @@ if "secret_number" not in st.session_state:
     import random
     st.session_state.secret_number = random.randint(1, 50)
 
-st.title("Tebak angka hoki anak kucai")
+st.title("Tebak angka bomb anak kucai")
 
 guess = st.number_input("Masukkan tebakan angka (1-50):", min_value=1, max_value=50, step=1)
 if st.button("Tebak"):
