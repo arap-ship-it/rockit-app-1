@@ -27,6 +27,8 @@ st.write("Tebak angka antara 1 sampai 50.")
 
 import streamlit as st 
 
+st.title("Buat ngitung pengeluaran anak kucai") 
+
 
 col1, col2 = st.columns(2)
 
