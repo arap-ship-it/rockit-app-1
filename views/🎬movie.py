@@ -9,6 +9,10 @@ with c1 :
 st.title("Aplikasi Sederhana")
 
 # Menggunakan layout kolom
+
+import streamlit as st 
+
+
 col1, col2 = st.columns(2)
 
 with col1:
