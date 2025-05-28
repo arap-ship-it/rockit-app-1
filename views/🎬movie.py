@@ -6,4 +6,4 @@ with c1 :
     st.image("cab968147a62fe0cb645b51cd794ca60.jpg")
     st.title("ABSOLUTE CINEMA")
 
-st.title("Aplikasi Sederhana")
+
