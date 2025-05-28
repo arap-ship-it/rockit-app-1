@@ -7,10 +7,10 @@ with c1 :
     st.title("ABSOLUTE CINEMA")
     
 st.image("09c249dc4a6e80bbe85646e4d98188df.jpg", width=200)
-st.write("""THE BREAKFAST CLUB 1985
+st.write("THE BREAKFAST CLUB 1985
 running time 97 MINUTES
 directed by JOHN HUGHES
-produced by NED TANEN JOHN HUGHES""") 
+produced by NED TANEN JOHN HUGHES") 
 
 starring
 MOLLY RINGWALD ALLY SHEEDY JUDD NELSON
