@@ -42,7 +42,7 @@ with col1:
         st.write(f"{angka} adalah Bilangan Ganjil")
 
 with col2:
-    st.header("Aplikasi menghitung Total Belanja")
+    st.header("Aplikasi menghitung Total Gambling")
 
     def hitung_total(harga, jumlah):
         return harga * jumlah
