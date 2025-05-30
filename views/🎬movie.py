@@ -14,5 +14,5 @@ import streamlit as st
 st.image("933073f8b5f71a6dc69a837fb7cbc60e.jpg", width=200) 
 st.title("FALLEN ANGELS") 
 st.write("running time 99 MINUTE") 
-st.write("
-
+st.write("directed by Wong Kar-Wai") 
+st.write("produced by Jeffrey Lau") 
